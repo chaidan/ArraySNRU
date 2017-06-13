@@ -16,3 +16,9 @@ strArrayName2 = ["AAA", "BBB", "CCC"]
 var douArrayNum3 = [1.2, 3.7, 9.999]
 var douArrayNum4 = [Double]()
 douArrayNum4 = [2.1, 2.2, 3.4]
+// How to insert data to an array
+print("intNumber2 ==>\(intArrayNumber2)")
+intArrayNumber2.append(111)
+
+strArrayName2
+strArrayName2.append("Doramon")
