@@ -14,7 +14,16 @@ class MyClass {
         print("This is a void type function(method)")
     }
     
-    
+    // Create method or function return type
+    func myReturnType() -> Int {
+        let intResult = intNumber*5
+        return intResult
+    }
+    // Create method with Arg and Return
+    func myOfficer(strTitle: String, strDetail: String) -> String {
+        let strOfficer = strTitle + "" + strName+" "+strDetail
+        return strOfficer
+    }
     
     
 
@@ -37,4 +46,9 @@ print("After ==> \(myClass.strName)")
 //การเรียกใช้งาน เมธอด
 myClass.myVoidType()
 
+// test return type method
+var intMyResult = myClass.myReturnType()
 
+
+// test Arg and return
+var strMyStudent = myClass.myOfficer(strTitle: "Mr.", strDetail: "น่ารัก")
