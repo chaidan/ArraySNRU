@@ -22,3 +22,38 @@ intArrayNumber2.append(111)
 
 strArrayName2
 strArrayName2.append("Doramon")
+
+// How to find array size
+strArrayName2.count
+print("get index 3nd of strArrayName2")
+print(strArrayName2[3])
+
+
+// How do delete member of array
+strArrayName2.remove(at: 1)
+print(strArrayName2)
+
+// how to sort array members
+var intA = [9, 5, 7, 1, 3, 10]
+intA.sort()
+print(intA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
